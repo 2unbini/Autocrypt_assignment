@@ -17,6 +17,8 @@
 		A82B7D992976CBF6008DF237 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A82B7D982976CBF6008DF237 /* SnapKit */; };
 		A82B7D9C2976CC3C008DF237 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A82B7D9B2976CC3C008DF237 /* RxSwift */; };
 		A89B82AA297928EC002EB762 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89B82A9297928EC002EB762 /* SearchViewController.swift */; };
+		A89B82AC29799843002EB762 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89B82AB29799843002EB762 /* MainView.swift */; };
+		A89B82AE29799F45002EB762 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89B82AD29799F45002EB762 /* SummaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		A82B7D8C2976C90B008DF237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A82B7D922976CB4C008DF237 /* citylist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = citylist.json; path = "../../../../Downloads/사전과제 자료/citylist.json"; sourceTree = "<group>"; };
 		A89B82A9297928EC002EB762 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		A89B82AB29799843002EB762 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A89B82AD29799F45002EB762 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				A82B7D7E2976C90A008DF237 /* AppDelegate.swift */,
 				A82B7D802976C90A008DF237 /* SceneDelegate.swift */,
 				A82B7D822976C90A008DF237 /* MainViewController.swift */,
+				A89B82AB29799843002EB762 /* MainView.swift */,
+				A89B82AD29799F45002EB762 /* SummaryView.swift */,
 				A89B82A9297928EC002EB762 /* SearchViewController.swift */,
 				A82B7D922976CB4C008DF237 /* citylist.json */,
 				A82B7D872976C90B008DF237 /* Assets.xcassets */,
@@ -160,7 +166,9 @@
 				A82B7D832976C90A008DF237 /* MainViewController.swift in Sources */,
 				A82B7D7F2976C90A008DF237 /* AppDelegate.swift in Sources */,
 				A89B82AA297928EC002EB762 /* SearchViewController.swift in Sources */,
+				A89B82AC29799843002EB762 /* MainView.swift in Sources */,
 				A82B7D812976C90A008DF237 /* SceneDelegate.swift in Sources */,
+				A89B82AE29799F45002EB762 /* SummaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
