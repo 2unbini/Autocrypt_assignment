@@ -19,6 +19,7 @@
 		A89B82AA297928EC002EB762 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89B82A9297928EC002EB762 /* SearchViewController.swift */; };
 		A89B82AC29799843002EB762 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89B82AB29799843002EB762 /* MainView.swift */; };
 		A89B82AE29799F45002EB762 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89B82AD29799F45002EB762 /* SummaryView.swift */; };
+		A89B82B02979B9E4002EB762 /* HourlyTemperatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89B82AF2979B9E4002EB762 /* HourlyTemperatureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		A89B82A9297928EC002EB762 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		A89B82AB29799843002EB762 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		A89B82AD29799F45002EB762 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		A89B82AF2979B9E4002EB762 /* HourlyTemperatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyTemperatureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				A82B7D802976C90A008DF237 /* SceneDelegate.swift */,
 				A82B7D822976C90A008DF237 /* MainViewController.swift */,
 				A89B82AB29799843002EB762 /* MainView.swift */,
+				A89B82AF2979B9E4002EB762 /* HourlyTemperatureView.swift */,
 				A89B82AD29799F45002EB762 /* SummaryView.swift */,
 				A89B82A9297928EC002EB762 /* SearchViewController.swift */,
 				A82B7D922976CB4C008DF237 /* citylist.json */,
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A89B82B02979B9E4002EB762 /* HourlyTemperatureView.swift in Sources */,
 				A82B7D832976C90A008DF237 /* MainViewController.swift in Sources */,
 				A82B7D7F2976C90A008DF237 /* AppDelegate.swift in Sources */,
 				A89B82AA297928EC002EB762 /* SearchViewController.swift in Sources */,

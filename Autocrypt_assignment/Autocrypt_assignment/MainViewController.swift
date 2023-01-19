@@ -31,16 +31,11 @@ class MainViewController: UIViewController {
         self.scrollView.addSubview(contentView)
         
         self.scrollView.snp.makeConstraints { make in
-            make.centerX.equalToSuperview()
-            make.top.equalToSuperview()
-            make.bottom.equalToSuperview()
-            make.width.equalToSuperview()
+            make.centerX.top.bottom.width.equalToSuperview()
         }
         self.contentView.snp.makeConstraints { make in
-            make.centerX.equalToSuperview()
+            make.centerX.bottom.width.equalToSuperview()
             make.top.equalTo(self.view.safeAreaLayoutGuide)
-            make.bottom.equalToSuperview()
-            make.width.equalToSuperview()
         }
     }
     
@@ -48,10 +43,7 @@ class MainViewController: UIViewController {
         self.contentView.addSubview(self.mainView)
         
         self.mainView.snp.makeConstraints { make in
-            make.centerX.equalToSuperview()
-            make.top.equalToSuperview()
-            make.bottom.equalToSuperview()
-            make.width.equalToSuperview()
+            make.centerX.top.bottom.width.equalToSuperview()
         }
     }
 }

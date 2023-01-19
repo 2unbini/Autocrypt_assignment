@@ -14,6 +14,8 @@ class MainView: UIView {
     
     lazy var summaryView: SummaryView = SummaryView()
     
+    lazy var hourlyTemperatureView: HourlyTemperatureView = HourlyTemperatureView()
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -26,13 +28,18 @@ class MainView: UIView {
     }
     
     private func configureView() {
-        self.addSubview(self.summaryView)
         
+        // SUMMARY VIEW
+        self.addSubview(self.summaryView)
         self.summaryView.snp.makeConstraints { make in
-            make.centerX.equalToSuperview()
-            make.top.equalToSuperview()
-            make.leading.equalToSuperview()
-            make.trailing.equalToSuperview()
+            make.centerX.top.leading.trailing.equalToSuperview()
+        }
+        
+        // HOURLY TEMPERATURE VIEW
+        self.addSubview(self.hourlyTemperatureView)
+        self.hourlyTemperatureView.snp.makeConstraints { make in
+            make.centerX.leading.trailing.equalToSuperview()
+            make.top.equalTo(self.summaryView.snp.bottom).offset(20)
         }
     }
 }
